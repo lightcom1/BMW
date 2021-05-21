@@ -397,9 +397,9 @@
             удобное для вас время
           </p>
           <form class="form form-test-drive">
-            <input type="text" class="input" name="name" placeholder="Имя">
-            <input type="mail" class="input" name="mail" placeholder="Электронная почта">
-            <input type="text" class="input" name="phone" placeholder="Телефон">
+            <input type="text" class="input" name="name" placeholder="Имя" required>
+            <input type="mail" class="input" name="mail" placeholder="Электронная почта" required>
+            <input type="text" class="input" name="phone" placeholder="Телефон" required>
             <button type="submit" class="button form__button">
               Отправить
             </button>
@@ -428,8 +428,8 @@
       <button type="button" class="modal__close" aria-label="закрыть модальное окно">
       </button>
       <form class="form modal__form">
-        <input type="text" name="name" class="input modal__input" placeholder="Имя">
-        <input type="mail" name="mail" class="input modal__input" placeholder="Электронная почта">
+        <input type="text" name="name" class="input modal__input" placeholder="Имя" required>
+        <input type="mail" name="mail" class="input modal__input" placeholder="Электронная почта" required>
         <div class="modal-buttons">
           <button type="submit" class="button modal__button">
             Отправить
